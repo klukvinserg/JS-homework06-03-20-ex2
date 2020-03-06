@@ -31,4 +31,8 @@ for (let i = min; min > 0; i--) {
   }
 }
 
-alert("result=" + result);
+if (result === undefined) {
+  alert("Input incorrect");
+} else {
+  alert("result=" + result);
+}
